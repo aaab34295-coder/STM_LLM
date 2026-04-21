@@ -1,0 +1,274 @@
+/home/xyh/anaconda3/envs/ST-LLM/lib/python3.10/site-packages/pandas/core/arrays/masked.py:61: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.5' currently installed).
+  from pandas.core import (
+/home/xyh/anaconda3/envs/ST-LLM/lib/python3.10/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+/home/xyh/anaconda3/envs/ST-LLM/lib/python3.10/site-packages/huggingface_hub/file_download.py:945: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/home/xyh/anaconda3/envs/ST-LLM/lib/python3.10/site-packages/peft/tuners/lora/layer.py:1119: UserWarning: fan_in_fan_out is set to False but the target module is `Conv1D`. Setting fan_in_fan_out to True.
+  warnings.warn(
+正在加载文件： data/taxi_pick/train.npz
+正在加载文件： data/taxi_pick/val.npz
+正在加载文件： data/taxi_pick/test.npz
+Perform shuffle on the dataset
+u的值 1
+Ranger optimizer loaded. 
+Gradient Centralization usage = True
+GC applied to both conv and fc layers
+Total params: 96249500
+Trainable params: 16460444
+===== Start Training =====
+[✓] Top-K semantic tokens saved to ./semantic_logs/topk_tokens.json
+Epoch 001 | Train MAE 21.7096 | Val MAE 17.4173
+✓ Best model updated.
+Epoch 002 | Train MAE 17.1675 | Val MAE 12.4409
+✓ Best model updated.
+Epoch 003 | Train MAE 13.4277 | Val MAE 10.8228
+✓ Best model updated.
+Epoch 004 | Train MAE 12.0505 | Val MAE 11.4836
+Epoch 005 | Train MAE 11.2183 | Val MAE 9.4627
+✓ Best model updated.
+Epoch 006 | Train MAE 10.2900 | Val MAE 8.7737
+✓ Best model updated.
+Epoch 007 | Train MAE 9.7662 | Val MAE 8.4303
+✓ Best model updated.
+Epoch 008 | Train MAE 9.3807 | Val MAE 8.1512
+✓ Best model updated.
+Epoch 009 | Train MAE 8.8791 | Val MAE 8.0823
+✓ Best model updated.
+Epoch 010 | Train MAE 8.2801 | Val MAE 7.8636
+✓ Best model updated.
+Epoch 011 | Train MAE 8.2458 | Val MAE 8.0024
+Epoch 012 | Train MAE 7.8470 | Val MAE 8.2680
+Epoch 013 | Train MAE 7.6451 | Val MAE 7.6676
+✓ Best model updated.
+Epoch 014 | Train MAE 7.3757 | Val MAE 6.9060
+✓ Best model updated.
+Epoch 015 | Train MAE 7.1093 | Val MAE 6.9348
+Epoch 016 | Train MAE 6.9494 | Val MAE 6.6378
+✓ Best model updated.
+Epoch 017 | Train MAE 6.9121 | Val MAE 6.7340
+Epoch 018 | Train MAE 6.6298 | Val MAE 6.6808
+Epoch 019 | Train MAE 6.5093 | Val MAE 6.6367
+✓ Best model updated.
+Epoch 020 | Train MAE 6.3543 | Val MAE 7.4553
+Epoch 021 | Train MAE 6.3824 | Val MAE 6.6080
+✓ Best model updated.
+Epoch 022 | Train MAE 6.3049 | Val MAE 7.3168
+Epoch 023 | Train MAE 6.3772 | Val MAE 6.0263
+✓ Best model updated.
+Epoch 024 | Train MAE 6.0815 | Val MAE 6.3548
+Epoch 025 | Train MAE 6.0101 | Val MAE 6.9596
+Epoch 026 | Train MAE 5.9028 | Val MAE 6.4868
+Epoch 027 | Train MAE 5.8605 | Val MAE 6.1171
+Epoch 028 | Train MAE 5.8759 | Val MAE 6.1541
+Epoch 029 | Train MAE 5.8587 | Val MAE 5.9950
+✓ Best model updated.
+Epoch 030 | Train MAE 5.7602 | Val MAE 6.0886
+Epoch 031 | Train MAE 5.7053 | Val MAE 6.1605
+Epoch 032 | Train MAE 5.7537 | Val MAE 6.1656
+Epoch 033 | Train MAE 5.6972 | Val MAE 6.2947
+Epoch 034 | Train MAE 5.6541 | Val MAE 6.2176
+Epoch 035 | Train MAE 5.6285 | Val MAE 6.2668
+Epoch 036 | Train MAE 5.6216 | Val MAE 6.1693
+Epoch 037 | Train MAE 5.5597 | Val MAE 6.5830
+Epoch 038 | Train MAE 5.5392 | Val MAE 6.3403
+Epoch 039 | Train MAE 5.4987 | Val MAE 6.3639
+Epoch 040 | Train MAE 5.4794 | Val MAE 6.2740
+Epoch 041 | Train MAE 5.4800 | Val MAE 5.9321
+✓ Best model updated.
+Epoch 042 | Train MAE 5.4960 | Val MAE 5.7142
+✓ Best model updated.
+Epoch 043 | Train MAE 5.4824 | Val MAE 6.3802
+Epoch 044 | Train MAE 5.4415 | Val MAE 6.1573
+Epoch 045 | Train MAE 5.4293 | Val MAE 5.9088
+Epoch 046 | Train MAE 5.4074 | Val MAE 5.9775
+Epoch 047 | Train MAE 5.3970 | Val MAE 5.7798
+Epoch 048 | Train MAE 5.4024 | Val MAE 5.9779
+Epoch 049 | Train MAE 5.3888 | Val MAE 6.4064
+Epoch 050 | Train MAE 5.3591 | Val MAE 6.2102
+Epoch 051 | Train MAE 5.3151 | Val MAE 6.0648
+Epoch 052 | Train MAE 5.3030 | Val MAE 5.9110
+Epoch 053 | Train MAE 5.3561 | Val MAE 5.7194
+Epoch 054 | Train MAE 5.2962 | Val MAE 5.8022
+Epoch 055 | Train MAE 5.2671 | Val MAE 6.0939
+Epoch 056 | Train MAE 5.2666 | Val MAE 6.4539
+Epoch 057 | Train MAE 5.3028 | Val MAE 5.8386
+Epoch 058 | Train MAE 5.2771 | Val MAE 5.7561
+Epoch 059 | Train MAE 5.3056 | Val MAE 5.7750
+Epoch 060 | Train MAE 5.2658 | Val MAE 5.9536
+Epoch 061 | Train MAE 5.2606 | Val MAE 6.2242
+Epoch 062 | Train MAE 5.2310 | Val MAE 6.0577
+Epoch 063 | Train MAE 5.2176 | Val MAE 5.8728
+Epoch 064 | Train MAE 5.1856 | Val MAE 5.6692
+✓ Best model updated.
+Epoch 065 | Train MAE 5.1788 | Val MAE 5.7834
+Epoch 066 | Train MAE 5.1758 | Val MAE 5.7717
+Epoch 067 | Train MAE 5.1580 | Val MAE 5.9979
+Epoch 068 | Train MAE 5.1560 | Val MAE 5.8750
+Epoch 069 | Train MAE 5.1409 | Val MAE 5.9070
+Epoch 070 | Train MAE 5.1200 | Val MAE 5.8180
+Epoch 071 | Train MAE 5.1222 | Val MAE 5.7285
+Epoch 072 | Train MAE 5.1009 | Val MAE 5.7293
+Epoch 073 | Train MAE 5.0946 | Val MAE 5.8229
+Epoch 074 | Train MAE 5.0864 | Val MAE 5.7984
+Epoch 075 | Train MAE 5.0713 | Val MAE 5.7200
+Epoch 076 | Train MAE 5.0847 | Val MAE 5.7112
+Epoch 077 | Train MAE 5.1054 | Val MAE 5.6953
+Epoch 078 | Train MAE 5.0833 | Val MAE 5.6396
+✓ Best model updated.
+Epoch 079 | Train MAE 5.0686 | Val MAE 5.5911
+✓ Best model updated.
+Epoch 080 | Train MAE 5.0908 | Val MAE 5.6274
+Epoch 081 | Train MAE 5.0330 | Val MAE 5.6357
+Epoch 082 | Train MAE 5.0356 | Val MAE 5.6967
+Epoch 083 | Train MAE 5.0496 | Val MAE 5.8629
+Epoch 084 | Train MAE 5.0250 | Val MAE 5.5911
+Epoch 085 | Train MAE 5.0210 | Val MAE 5.6942
+Epoch 086 | Train MAE 4.9981 | Val MAE 5.6809
+Epoch 087 | Train MAE 4.9907 | Val MAE 5.5937
+Epoch 088 | Train MAE 5.0166 | Val MAE 5.7169
+Epoch 089 | Train MAE 5.0298 | Val MAE 5.6749
+Epoch 090 | Train MAE 5.0141 | Val MAE 5.9081
+Epoch 091 | Train MAE 5.0074 | Val MAE 5.8873
+Epoch 092 | Train MAE 4.9814 | Val MAE 5.8404
+Epoch 093 | Train MAE 4.9863 | Val MAE 5.6883
+Epoch 094 | Train MAE 4.9735 | Val MAE 5.4913
+✓ Best model updated.
+Epoch 095 | Train MAE 4.9871 | Val MAE 5.6694
+Epoch 096 | Train MAE 4.9715 | Val MAE 5.6101
+Epoch 097 | Train MAE 4.9365 | Val MAE 5.6851
+Epoch 098 | Train MAE 4.9232 | Val MAE 5.5968
+Epoch 099 | Train MAE 4.9269 | Val MAE 5.6565
+Epoch 100 | Train MAE 4.9219 | Val MAE 5.6570
+Epoch 101 | Train MAE 4.9456 | Val MAE 5.5944
+Epoch 102 | Train MAE 4.9254 | Val MAE 5.6009
+Epoch 103 | Train MAE 4.9026 | Val MAE 5.8982
+Epoch 104 | Train MAE 4.9466 | Val MAE 5.8182
+Epoch 105 | Train MAE 4.9411 | Val MAE 5.5944
+Epoch 106 | Train MAE 4.9179 | Val MAE 5.5307
+Epoch 107 | Train MAE 4.9233 | Val MAE 5.7035
+Epoch 108 | Train MAE 4.9167 | Val MAE 5.7967
+Epoch 109 | Train MAE 4.8995 | Val MAE 5.8416
+Epoch 110 | Train MAE 4.8935 | Val MAE 5.8356
+Epoch 111 | Train MAE 4.8958 | Val MAE 5.7506
+Epoch 112 | Train MAE 4.8794 | Val MAE 5.6803
+Epoch 113 | Train MAE 4.8746 | Val MAE 5.4566
+✓ Best model updated.
+Epoch 114 | Train MAE 4.8976 | Val MAE 5.8862
+Epoch 115 | Train MAE 4.8689 | Val MAE 5.7286
+Epoch 116 | Train MAE 4.8813 | Val MAE 5.6918
+Epoch 117 | Train MAE 4.8525 | Val MAE 5.7500
+Epoch 118 | Train MAE 4.8387 | Val MAE 5.6949
+Epoch 119 | Train MAE 4.8376 | Val MAE 5.6022
+Epoch 120 | Train MAE 4.8443 | Val MAE 5.6881
+Epoch 121 | Train MAE 4.8338 | Val MAE 5.7712
+Epoch 122 | Train MAE 4.8218 | Val MAE 5.8155
+Epoch 123 | Train MAE 4.8418 | Val MAE 5.7831
+Epoch 124 | Train MAE 4.8256 | Val MAE 5.5771
+Epoch 125 | Train MAE 4.8388 | Val MAE 5.7665
+Epoch 126 | Train MAE 4.8396 | Val MAE 5.5755
+Epoch 127 | Train MAE 4.8195 | Val MAE 5.8877
+Epoch 128 | Train MAE 4.8104 | Val MAE 5.7542
+Epoch 129 | Train MAE 4.7977 | Val MAE 5.9407
+Epoch 130 | Train MAE 4.8439 | Val MAE 5.6123
+Epoch 131 | Train MAE 4.8326 | Val MAE 5.6266
+Epoch 132 | Train MAE 4.8340 | Val MAE 5.6657
+Epoch 133 | Train MAE 4.8154 | Val MAE 5.8200
+Epoch 134 | Train MAE 4.7992 | Val MAE 5.6651
+Epoch 135 | Train MAE 4.8103 | Val MAE 5.7961
+Epoch 136 | Train MAE 4.8061 | Val MAE 5.6123
+Epoch 137 | Train MAE 4.8045 | Val MAE 5.6308
+Epoch 138 | Train MAE 4.7883 | Val MAE 5.7280
+Epoch 139 | Train MAE 4.8157 | Val MAE 5.7547
+Epoch 140 | Train MAE 4.7850 | Val MAE 5.6906
+Epoch 141 | Train MAE 4.7913 | Val MAE 5.6302
+Epoch 142 | Train MAE 4.7906 | Val MAE 5.5865
+Epoch 143 | Train MAE 4.8016 | Val MAE 5.6191
+Epoch 144 | Train MAE 4.7744 | Val MAE 5.5943
+Epoch 145 | Train MAE 4.7502 | Val MAE 5.8045
+Epoch 146 | Train MAE 4.7604 | Val MAE 5.6567
+Epoch 147 | Train MAE 4.7487 | Val MAE 5.7266
+Epoch 148 | Train MAE 4.7511 | Val MAE 5.8062
+Epoch 149 | Train MAE 4.7595 | Val MAE 5.7230
+Epoch 150 | Train MAE 4.7565 | Val MAE 5.6345
+Epoch 151 | Train MAE 4.7263 | Val MAE 5.7147
+Epoch 152 | Train MAE 4.7177 | Val MAE 5.7122
+Epoch 153 | Train MAE 4.7294 | Val MAE 5.6827
+Epoch 154 | Train MAE 4.7324 | Val MAE 5.7354
+Epoch 155 | Train MAE 4.7295 | Val MAE 5.6339
+Epoch 156 | Train MAE 4.7184 | Val MAE 5.6304
+Epoch 157 | Train MAE 4.7298 | Val MAE 5.6772
+Epoch 158 | Train MAE 4.7190 | Val MAE 5.6191
+Epoch 159 | Train MAE 4.7113 | Val MAE 5.6497
+Epoch 160 | Train MAE 4.7060 | Val MAE 5.6463
+Epoch 161 | Train MAE 4.6980 | Val MAE 5.6599
+Epoch 162 | Train MAE 4.7189 | Val MAE 5.4832
+Epoch 163 | Train MAE 4.7517 | Val MAE 5.7713
+Epoch 164 | Train MAE 4.7086 | Val MAE 5.5634
+Epoch 165 | Train MAE 4.7014 | Val MAE 5.8345
+Epoch 166 | Train MAE 4.6990 | Val MAE 5.5574
+Epoch 167 | Train MAE 4.7295 | Val MAE 5.6358
+Epoch 168 | Train MAE 4.7223 | Val MAE 5.6878
+Epoch 169 | Train MAE 4.7039 | Val MAE 5.9934
+Epoch 170 | Train MAE 4.7145 | Val MAE 5.8320
+Epoch 171 | Train MAE 4.6924 | Val MAE 5.6462
+Epoch 172 | Train MAE 4.7019 | Val MAE 5.5895
+Epoch 173 | Train MAE 4.7333 | Val MAE 5.7133
+Epoch 174 | Train MAE 4.7401 | Val MAE 5.8608
+Epoch 175 | Train MAE 4.7161 | Val MAE 5.9146
+Epoch 176 | Train MAE 4.6831 | Val MAE 5.9991
+Epoch 177 | Train MAE 4.7045 | Val MAE 5.5831
+Epoch 178 | Train MAE 4.7087 | Val MAE 5.5432
+Epoch 179 | Train MAE 4.7110 | Val MAE 5.6665
+Epoch 180 | Train MAE 4.6726 | Val MAE 5.5571
+Epoch 181 | Train MAE 4.6494 | Val MAE 5.7555
+Epoch 182 | Train MAE 4.6641 | Val MAE 5.9841
+Epoch 183 | Train MAE 4.6751 | Val MAE 5.7543
+Epoch 184 | Train MAE 4.6663 | Val MAE 5.5598
+Epoch 185 | Train MAE 4.6931 | Val MAE 5.6145
+Epoch 186 | Train MAE 4.7017 | Val MAE 5.8084
+Epoch 187 | Train MAE 4.6934 | Val MAE 5.7428
+Epoch 188 | Train MAE 4.6794 | Val MAE 5.6383
+Epoch 189 | Train MAE 4.6719 | Val MAE 5.5886
+Epoch 190 | Train MAE 4.6757 | Val MAE 5.6494
+Epoch 191 | Train MAE 4.6672 | Val MAE 5.9839
+Epoch 192 | Train MAE 4.6648 | Val MAE 5.6170
+Epoch 193 | Train MAE 4.6314 | Val MAE 5.7991
+Epoch 194 | Train MAE 4.6286 | Val MAE 5.7684
+Epoch 195 | Train MAE 4.6427 | Val MAE 5.8257
+Epoch 196 | Train MAE 4.6600 | Val MAE 5.7253
+Epoch 197 | Train MAE 4.6588 | Val MAE 5.5322
+Epoch 198 | Train MAE 4.6601 | Val MAE 5.4880
+Epoch 199 | Train MAE 4.6443 | Val MAE 5.7257
+Epoch 200 | Train MAE 4.6236 | Val MAE 5.6370
+Epoch 201 | Train MAE 4.6224 | Val MAE 5.8153
+Epoch 202 | Train MAE 4.6258 | Val MAE 5.6703
+Epoch 203 | Train MAE 4.6142 | Val MAE 5.5581
+Epoch 204 | Train MAE 4.6310 | Val MAE 5.4912
+Epoch 205 | Train MAE 4.6250 | Val MAE 5.6745
+Epoch 206 | Train MAE 4.6289 | Val MAE 5.8276
+Epoch 207 | Train MAE 4.6272 | Val MAE 5.9580
+Epoch 208 | Train MAE 4.6238 | Val MAE 5.9649
+Epoch 209 | Train MAE 4.6156 | Val MAE 5.7632
+Epoch 210 | Train MAE 4.6027 | Val MAE 5.5933
+Epoch 211 | Train MAE 4.5956 | Val MAE 5.5586
+Epoch 212 | Train MAE 4.6527 | Val MAE 5.9727
+Epoch 213 | Train MAE 4.6138 | Val MAE 5.8031
+Early stopping triggered.
+
+Loading best model from epoch 113
+Horizon 01 | MAE 4.6090 RMSE 7.8609
+Horizon 02 | MAE 4.7834 RMSE 8.3555
+Horizon 03 | MAE 4.9030 RMSE 8.6098
+Horizon 04 | MAE 4.9971 RMSE 8.7955
+Horizon 05 | MAE 5.0526 RMSE 8.9462
+Horizon 06 | MAE 5.1269 RMSE 9.1441
+Horizon 07 | MAE 5.1690 RMSE 9.2175
+Horizon 08 | MAE 5.2300 RMSE 9.3169
+Horizon 09 | MAE 5.2510 RMSE 9.3421
+Horizon 10 | MAE 5.3250 RMSE 9.5406
+Horizon 11 | MAE 5.3334 RMSE 9.5772
+Horizon 12 | MAE 5.4025 RMSE 9.7229
+
+===== Final Result =====
+MAE 5.0986 | RMSE 9.0358 | MAPE 0.3267 | WMAPE 0.1929
