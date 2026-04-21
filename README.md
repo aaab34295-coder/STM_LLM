@@ -9,16 +9,9 @@ This project builds on prior open-source work and extends it with a new semantic
 
 ## Overview
 
-Urban traffic forecasting is a challenging spatio-temporal prediction problem defined on graph-structured data. STM-LLM addresses two major limitations in LLM-based traffic prediction:
+Urban traffic forecasting requires jointly modeling temporal patterns and spatial dependencies over graph-structured traffic data. Although large language models have recently shown strong potential for time-series forecasting, directly adapting them to traffic prediction remains challenging. In particular, numerical traffic signals are not naturally aligned with the semantic space of pretrained language models, and existing methods often struggle to capture long-range and structured dependencies across traffic nodes.
 
-1. **Cross-modal misalignment** between numerical traffic signals and the semantic space of pretrained language models.
-2. **Insufficient modeling of long-range and structured spatio-temporal dependencies** across traffic nodes.
-
-To address these issues, STM-LLM introduces:
-
-* a **dynamic Top-K cross-modal matching module** for filtering traffic-relevant token embeddings,
-* a **graph-enhanced spatio-temporal memory pool** for combining node-specific and neighborhood-aware traffic patterns,
-* a **partially frozen GPT-2 backbone with LoRA adaptation** for efficient and stable training.
+To address these challenges, **STM-LLM** introduces a dynamic **Top-K cross-modal matching module** for traffic-aware semantic alignment, a **graph-enhanced spatio-temporal memory pool** for modeling node-level and neighborhood-level patterns, and a **partially frozen GPT-2 backbone with LoRA adaptation** for efficient training and robust forecasting.
 
 ## Key Features
 
