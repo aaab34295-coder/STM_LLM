@@ -45,7 +45,7 @@ conda env create -f env_ubuntu.yaml
 
 The datasets used in this project follow the same data resources provided by **ST-LLM+**:
 
-* Dataset source: [ST-LLM+ GitHub Repository](https://github.com/ChenxiLiu-HNU/ST-LLM)
+* Dataset source: [ST-LLM+ GitHub Repository](https://github.com/kethmih/ST-LLM-Plus)
 * Please refer to the dataset instructions and linked resources in the ST-LLM+/ST-LLM project page for preprocessing and usage details.
 
 Typical datasets used in this project include:
