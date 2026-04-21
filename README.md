@@ -35,7 +35,8 @@ We recommend creating a conda environment first, and then installing the require
 ```bash
 conda create -n stm-llm python=3.8 -y
 conda activate stm-llm
-pip install -r requirements.txt****
+pip install -r requirements.txt
+```
 
 ## Datasets
 
