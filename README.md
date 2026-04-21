@@ -5,15 +5,7 @@ This repository provides the PyTorch implementation of **STM-LLM**, a spatio-tem
 
 This project builds on prior open-source work and extends it with a new semantic matching and graph-enhanced memory design. In particular, we sincerely thank the authors of the original **ST-LLM** repository for releasing their codebase, which provided an important foundation for our implementation and experimentation.
 
-## Acknowledgements
 
-We gratefully acknowledge the following open-source projects and prior work:
-
-* **ST-LLM+**: Our implementation is substantially inspired by and partially built upon the training framework and design ideas released by the original ST-LLM authors. We sincerely thank them for making their code publicly available and for supporting reproducible research in LLM-based traffic forecasting.
-* **ESG**: We also thank the ESG project for providing data processing resources and references for the traffic datasets used in this line of work.
-* More broadly, we appreciate the open-source community for contributing tools, libraries, and benchmarks that make this research possible.
-
-If you use this repository, we encourage you to also cite and acknowledge the original ST-LLM+ work alongside this project.
 
 ## Overview
 
@@ -79,7 +71,16 @@ You can switch datasets by changing the `--data` argument, for example:
 
 * `bike_pick`
 * `taxi_pick`
+  
+## Acknowledgements
 
+We gratefully acknowledge the following open-source projects and prior work:
+
+* **ST-LLM+**: Our implementation is substantially inspired by and partially built upon the training framework and design ideas released by the original ST-LLM authors. We sincerely thank them for making their code publicly available and for supporting reproducible research in LLM-based traffic forecasting.
+* **ESG**: We also thank the ESG project for providing data processing resources and references for the traffic datasets used in this line of work.
+* More broadly, we appreciate the open-source community for contributing tools, libraries, and benchmarks that make this research possible.
+
+If you use this repository, we encourage you to also cite and acknowledge the original ST-LLM+ work alongside this project.
 ## Citation
 
 If you find this repository useful in your research, please consider starring the repository and citing the related work.
@@ -89,8 +90,8 @@ If you find this repository useful in your research, please consider starring th
 ```bibtex
 @article{stmllm2025,
   title={STM-LLM: Semantic Alignment and Traffic Memory Enhanced Large Language Model for Traffic Prediction},
-  author={Authors to be updated},
-  journal={Under review / to appear},
+  author={},
+  journal={},
   year={2025}
 }
 ```
