@@ -28,11 +28,14 @@ To address these challenges, **STM-LLM** introduces a dynamic **Top-K cross-moda
 * CUDA 11.7
 * torchvision 0.19.1
 
-Create the environment with:
+## Environment Setup
+
+We recommend creating a conda environment first, and then installing the required packages inside the environment.
 
 ```bash
-conda env create -f env_ubuntu.yaml
-```
+conda create -n stm-llm python=3.8 -y
+conda activate stm-llm
+pip install -r requirements.txt****
 
 ## Datasets
 
