@@ -10,7 +10,7 @@ This project builds on prior open-source work and extends it with a new semantic
 ## Overview
 
 Urban traffic forecasting requires jointly modeling temporal patterns and spatial dependencies over graph-structured traffic data. Although large language models have recently shown strong potential for time-series forecasting, directly adapting them to traffic prediction remains challenging. In particular, numerical traffic signals are not naturally aligned with the semantic space of pretrained language models, and existing methods often struggle to capture long-range and structured dependencies across traffic nodes.
-
+![STM-LLM Framework](./assets/STM-LLM2.png)
 To address these challenges, **STM-LLM** introduces a dynamic **Top-K cross-modal matching module** for traffic-aware semantic alignment, a **graph-enhanced spatio-temporal memory pool** for modeling node-level and neighborhood-level patterns, and a **partially frozen GPT-2 backbone with LoRA adaptation** for efficient training and robust forecasting.
 
 ## Key Features
