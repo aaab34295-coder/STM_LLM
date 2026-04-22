@@ -76,11 +76,11 @@ If you find this repository useful in your research, please consider starring th
 ### STM-LLM
 
 ```bibtex
-@article{stmllm2025,
+@article{stmllm2026,
   title={STM-LLM: Semantic Alignment and Traffic Memory Enhanced Large Language Model for Traffic Prediction},
   author={},
   journal={},
-  year={2025}
+  year={2026}
 }
 ```
 
